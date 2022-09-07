@@ -1,4 +1,9 @@
-T = 31
-fail = 13.49 * 0.967 ** T - 1
-print(fail)
-Some rat
+import math
+
+
+def f(t):
+    a = 2 * math.pi * t
+    return a
+
+
+print(f(50))
